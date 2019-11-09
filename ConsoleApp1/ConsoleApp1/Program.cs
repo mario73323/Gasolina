@@ -22,7 +22,7 @@ namespace VentaGasolina
 
             do
             {
-                Gasolina gasolina1 = new Gasolina("EXTRA", 0);
+                Gasolina gasolina1 = new Gasolina("EXTRA", 0,cliente);
                 Console.WriteLine("Ingrese el Tipo de Gasolina \n \t EXTRA\t SUPER");
                 gasolina1.Tipo = Console.ReadLine();
                 Console.WriteLine("Digite la cantidad de galones");

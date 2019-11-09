@@ -8,10 +8,11 @@ namespace VentaGasolina.Clases
 {
     public class Gasolina
     {
-        public Gasolina(string tipo, int galones)
+        public Gasolina(string tipo, int galones,Cliente cliente)
         {
             Tipo = tipo;
             Galones = galones;
+            Cliente = cliente;
         }
         private string tipo;
 
