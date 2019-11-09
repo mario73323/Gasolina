@@ -52,7 +52,7 @@ namespace VentaGasolina
                             Console.Clear();
                             foreach (Gasolina item in cliente.Gasolina)
                             {
-                                Console.WriteLine("\n\n******************FACTURA********************\t\t");
+                                Console.WriteLine("\n\n******************FACTURA********************\n");
                                 Console.WriteLine(cliente.ToString());
                                 Console.WriteLine(item.ToString());
                             }
